@@ -11,6 +11,13 @@
   --transition: 0.4s ease-in;
 }
 
+/* Carousel */
+#carouselExampleIndicators {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
 /* Smooth scroll effect */
 html {
   scroll-behavior: smooth;

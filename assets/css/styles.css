@@ -14,9 +14,15 @@
 /* Carousel */
 #carouselExampleIndicators {
   margin: 0 auto;
-  max-width: 800px;
+  width: 800px; /* set the width of the carousel */
+  height: 400px; /* set the height of the carousel */
 }
 
+.carousel-inner .carousel-item img {
+  object-fit: cover;
+  height: 100%; /* set the height of the images to fill the carousel */
+  width: 100%; /* set the width of the images to fill the carousel */
+}
 
 /* Smooth scroll effect */
 html {

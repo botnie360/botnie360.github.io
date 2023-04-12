@@ -14,8 +14,12 @@
 /* Carousel */
 #carouselExampleIndicators {
   margin: 0 auto;
-  width: 800px; /* set the width of the carousel */
-  height: 400px; /* set the height of the carousel */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
 }
 
 .carousel-inner .carousel-item img {

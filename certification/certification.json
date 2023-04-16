@@ -8,36 +8,36 @@
         "credentials": "https://model.upou.edu.ph/"
       }
     }, {
-        "name": "Learn basic web programming",
-        "by": "Dicoding Academy x Lintasarta Cloudeka Digischool",
-        "image": "./certification/web-dicoding.png",
-        "category":"programming",
+        "name": "Principle of Graphic Design",
+        "by": "University of the Philippines - Massive Open Distance eLearning",
+        "image": "./certification/up-graphic-designing.jpg",
+        "category":"graphic design",
         "links": {
-            "credentials": "https://www.dicoding.com/certificates/QLZ92D242X5D"
+        "credentials": "https://model.upou.edu.ph/"
         }
     }, {
-        "name": "Learn basic javascript programming",
-        "by": "Dicoding Academy x IndosatID Camp",
-        "image": "./certification/js-dicoding.png",
-        "category":"programming",
+        "name": "Principle of Graphic Design",
+        "by": "University of the Philippines - Massive Open Distance eLearning",
+        "image": "./certification/up-graphic-designing.jpg",
+        "category":"graphic design",
         "links": {
-            "credentials": "https://www.dicoding.com/certificates/NVP7KRLRGZR0"
+        "credentials": "https://model.upou.edu.ph/"
         }
     }, {
-        "name": "Learn to Create a Web Front-End for Beginners",
-        "by": "Dicoding Academy x Lintasarta Cloudeka Digischool",
-        "image": "./certification/fe-dicoding.png",
-        "category":"programming",
+        "name": "Principle of Graphic Design",
+        "by": "University of the Philippines - Massive Open Distance eLearning",
+        "image": "./certification/up-graphic-designing.jpg",
+        "category":"graphic design",
         "links": {
-            "credentials": "https://www.dicoding.com/certificates/4EXG9YR7QZRL"
+        "credentials": "https://model.upou.edu.ph/"
         }
     }, {
-        "name": " Learn to Create Backend Applications for Beginners with Cloudeka",
-        "by": "Dicoding Academy x Lintasarta Cloudeka Digischool",
-        "image": "./certification/be-dicoding.png",
-        "category":"programming",
+        "name": "Principle of Graphic Design",
+        "by": "University of the Philippines - Massive Open Distance eLearning",
+        "image": "./certification/up-graphic-designing.jpg",
+        "category":"graphic design",
         "links": {
-            "credentials": "https://www.dicoding.com/certificates/QLZ9274YMX5D"
+        "credentials": "https://model.upou.edu.ph/"
         }
     }
 ]

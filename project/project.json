@@ -1,49 +1,49 @@
 [
     {
-        "title": "Form Website",
-        "tech": "HTML & CSS",
+        "title": "Sample 1",
+        "tech": "Message 1",
         "image": "./assets/img/project/form.png",
-        "desc":"This is my first project. I Learn in freecodecamp to make form website using HTML & CSS",
+        "desc": "Youtube",
         "links": {
-            "demo": "https://septiandwica.github.io/Survey-Form/",
-            "code": "https://github.com/Septiandwica/Survey-Form"
-        }
+        "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
+        "code": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ"
+      }
     },
     {
-        "title": "Learn Code Website",
-        "tech": "HTML, CSS & JS",
-        "image": "./assets/img/project/proyek web dasar.png",
-        "desc":"This is my for dicoding submission.",
+        "title": "Sample 1",
+        "tech": "Message 1",
+        "image": "./assets/img/project/form.png",
+        "desc": "Youtube",
         "links": {
-            "demo": "https://septiandwica.github.io/Project-Web-Dasar/",
-            "code": "https://github.com/Septiandwica/Project-Web-Dasar"
+        "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
+        "code": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ"
         }
     },{
-        "title": "BookShelf Web App",
-        "tech": "HTML & CSS",
-        "image": "./assets/img/project/bookshelf app.png",
-        "desc":"This is my project for dicoding submission.",
+        "title": "Sample 1",
+        "tech": "Message 1",
+        "image": "./assets/img/project/form.png",
+        "desc": "Youtube",
         "links": {
-            "demo": "https://septiandwica.github.io/bookshelf-app/",
-            "code": "https://github.com/Septiandwica/bookshelf-app"
+        "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
+        "code": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ"
         }
     },{
-        "title": "Company Profile",
-        "tech": "HTML, CSS, JS & BOOTSTRAP",
-        "image": "./assets/img/project/proyek freelance.png",
-        "desc": "This is my project for company profile(Thalia Education)",
+        "title": "Sample 1",
+        "tech": "Message 1",
+        "image": "./assets/img/project/form.png",
+        "desc": "Youtube",
         "links": {
-            "demo": "https://thaliaeducation.septiandwica.site",
-            "code": "https://github.com/Septiandwica/Company-Profile-1"
+        "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
+        "code": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ"
         }
     },{
-        "title": "Portfolio Website",
-        "tech": "HTML, CSS, JS & BOOTSTRAP",
-        "image": "./assets/img/project/portfolio.png",
-        "desc": "This is my project for personal portfolio.",
+        "title": "Sample 1",
+        "tech": "Message 1",
+        "image": "./assets/img/project/form.png",
+        "desc": "Youtube",
         "links": {
-            "demo": "https://septiandwica.site",
-            "code": "https://github.com/Septiandwica/"
+        "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
+        "code": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ"
         }
     }
 ]

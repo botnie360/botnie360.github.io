@@ -1,56 +1,135 @@
-# JabTV Landing Page
+![Portfolio](https://res.cloudinary.com/lifecodes/image/upload/v1678684352/Portfolio/l7b1gz61rh3hgoz5qzta.png)
 
-A landing page website template for campers. Made with the love of boxing at heart.
+<div align="center">
+  &middot;
+  <i>Next Portfolio built in Next.js + TypeScript + Tailwind CSS + Firebase</i>
+  &middot;
+  <br/>
+  <br/>
 
-![screenshot](screenshot.png)
+  <p align="center">
+    <img src="https://img.shields.io/github/forks/jigar-sable/next-portfolio?style=for-the-badge" />
+  <a href="https://jigarsable.vercel.app">
+    <img src="https://img.shields.io/static/v1?label=&message=View%20Demo&style=for-the-badge&color=black&logo=vercel" />
+  </a>
+</p>
 
-## Author
+<p align="center">
+  <a href="#introduction-">Introduction</a> •
+  <a href="#tech-stack-%EF%B8%8F">Tech Stack</a> •
+  <a href="#development-">Development</a> •
+    <a href="#deployment-">Deployment</a> •
+  <a href="#license-">License</a>
+</p>
 
-[@koladechris](https://www.twitter.com/koladechris)
+</div>
 
-## Github repo
+## Introduction 👋
 
-This is the [link](https://github.com/Ksound22/JabTV-Landing-Page) to the Github repo of the project
+Next Portfolio is built using Next.js and Tailwind CSS for a modern design and rapid development. TypeScript is utilized for code clarity and safety. Additionally, Firebase is being integrated for backend services such as realtime-database. The result is a dynamic and functional portfolio website that showcases the developer's skills and experience.
 
-## Sample Website
+## Tech Stack 🛠️
 
-A live demo is already available via this [link](https://xenodochial-poincare-9143f8.netlify.app)
+- [Next.js](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Firebase](https://firebase.google.com)
+- [SendGrid](https://sendgrid.com)
+- [Framer Motion](https://www.framer.com/motion)
 
-## Tech Stack
+<!-- ## Tech Stack 🛠️
 
-**Client:** HTML, CSS, Vanilla JavaSCript
+ <p>
+ <a href="https://nextjs.org">
+    <img src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+    </a>
+  <a href="https://tailwindcss.com">
+    <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" />
+  </a>
+  <a href="https://www.typescriptlang.org">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white" />
+  </a>
+   <a href="https://firebase.google.com">
+    <img src="https://img.shields.io/badge/Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=black" />
+  </a>
+  <a href="https://www.framer.com/motion">
+    <img src="https://img.shields.io/badge/Framer-0055FF.svg?style=for-the-badge&logo=Framer&logoColor=white" />
+  </a>
+</p> -->
 
-## Tools Used
+## Development 💻
 
-Below are are list of tools used, and the precise things they were used for:
+Here are the steps to run the portfolio locally.
 
-- [Ion Icons](https://ionic.io/ionicons) for dark theme switcher icons
-- [Icon8](https://icons8.com/) for scroll-tot-top icon
-- [Roboto font](https://icons8.com/) for font family
-- [Favicon IO](https://favicon.io/favicon-generator/) for favicons.
+1. Fork [this](https://github.com/jigar-sable/next-portfolio) repository.
 
-## Folder Structure
+2. Clone your forked copy of the repo
 
-The index.html and readme files are in the root folder, alongside the screenshot included in the readme.
+   ```bash
+   git clone https://github.com/<your-github-username>/next-portfolio.git
+   ```
 
-The assets folder contains the CSS and JavaScript files, all images and icons used, in their respective folders.
+3. Install dependencies
 
-## Customization Guide
+   ```bash
+   npm i
+   ```
 
-The various sections in the HTML and CSS are well commented, so feel free to change whatever doesn't suit your need.
+4. Create a Firebase project and select the web app
 
-The JavaScript functions are commented too, so you will know what the functions and selections do.
+5. Create an `.env.local` file in the root directory, and add the following variables with your firebase config:
+   ```
+   SENDGRID_API_KEY=XXXXXXXX
+   NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
+   MAIL_FROM=YOUR_MAIL_ID
+   MAIL_TO=YOUR_MAIL_ID
+   ```
+   <!-- write text to tell user to get sendgrid keys from dashboard and add here -->
 
-I used Ion Icons and Icons8 for the icons, but feel free to use fontawesome or any other icon library you want.
+> **Note**: `SENDGRID_API_KEY` - Create an API key from "Settings" -> "API Keys" with "Restricted Access" to only "Mail Send"
 
-For the subscription form submission, you can use formspree since you're just going to collect emails. You can use a more elaborate service like Mailchimp or Convertkit for this purpose.
+1. Update the sample [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) provided, with your data or directly import the same and edit using firebase later. (For storing images you can use [Cloudinary](https://cloudinary.com) or [Firebase Storage](https://firebase.google.com/docs/storage))
 
-In addition to formspree, you can also use Netlify form submission in case you deploy there. Brad Traversy has a [video tutorial](https://www.youtube.com/watch?v=6ElQ689HRcY) on how to do it.
+2. Import json data
 
-If you encounter problems customizing, reach out to me by sending me a DM on my [Twitter](https://www.twitter.com/koladechris).
+   - Go to [Firebase Console](https://console.firebase.google.com) and select your project
+   - Go to "Database" -> "Realtime Database" -> "Import JSON" and import the [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) file
 
-## Acknowledgements
+3. Run the project
 
-- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+   ```bash
+   npm run dev
+   ```
+
+## Deployment 🚀
+
+1. Create a Vercel account and select "Import Project"
+
+2. Select the forked repository and deploy
+
+3. Add the following environment variables in the Vercel dashboard:
+   ```
+   SENDGRID_API_KEY=XXXXXXXX
+   NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
+   MAIL_FROM=YOUR_MAIL_ID
+   MAIL_TO=YOUR_MAIL_ID
+   ```
+4. Hurray! You successfully deployed the portfolio🥳
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/jigar-sable/next-portfolio/blob/main/LICENSE.md)
+
+<!-- ## Contact 📬
+
+If you want to contact me, you can reach me through below handles.
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
+
+## Support 🙌
+
+If you like this portfolio, please consider giving it a ⭐ on GitHub and sharing it with your friends via social media.
+
+<div align="center">
+  <h3> Show some &nbsp;❤️&nbsp; by starring this repo! </h3>
+</div> -->

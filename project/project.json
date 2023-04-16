@@ -2,7 +2,7 @@
     {
         "title": "Sample 1",
         "tech": "Message 1",
-        "image": "./assets/img/project/form.png",
+        "image": "./assets/img/project/form.jpg",
         "desc": "Youtube",
         "links": {
         "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
@@ -12,7 +12,7 @@
     {
         "title": "Sample 1",
         "tech": "Message 1",
-        "image": "./assets/img/project/form.png",
+        "image": "./assets/img/project/form.jpg",
         "desc": "Youtube",
         "links": {
         "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
@@ -21,7 +21,7 @@
     },{
         "title": "Sample 1",
         "tech": "Message 1",
-        "image": "./assets/img/project/form.png",
+        "image": "./assets/img/project/form.jpg",
         "desc": "Youtube",
         "links": {
         "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
@@ -30,7 +30,7 @@
     },{
         "title": "Sample 1",
         "tech": "Message 1",
-        "image": "./assets/img/project/form.png",
+        "image": "./assets/img/project/form.jpg",
         "desc": "Youtube",
         "links": {
         "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",
@@ -39,7 +39,7 @@
     },{
         "title": "Sample 1",
         "tech": "Message 1",
-        "image": "./assets/img/project/form.png",
+        "image": "./assets/img/project/form.jpg",
         "desc": "Youtube",
         "links": {
         "demo": "https://www.youtube.com/channel/UCcGMcVvEoP81Jr-_ZiIZCcQ",

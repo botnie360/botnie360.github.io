@@ -173,8 +173,9 @@ srtop.reveal(".home .content .intro p", { delay: 300 });
 srtop.reveal(".home .content .intro a", { delay: 400 });
 
 srtop.reveal(".home .image", { delay: 600 });
-srtop.reveal(".home .linkedin", { interval: 600 });
-srtop.reveal(".home .github", { interval: 600 });
+srtop.reveal(".home .facebook", { interval: 600 });
+srtop.reveal(".home .youtube", { interval: 600 });
 srtop.reveal(".home .instagram", { interval: 600 });
+srtop.reveal(".home .tiktok", { interval: 600 });
 
 srtop.reveal(".about .cv-btn", { delay: 200 });
